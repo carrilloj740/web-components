@@ -1,0 +1,48 @@
+.contacto {
+    margin: 45px;
+}
+
+.contacto-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-contact_content {
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.btn-form {
+    background-color: #00ADB5;
+    width: 231px;
+    height: 55px;
+    border-radius: 24px;
+    color: black;
+    font-weight: 700;
+}

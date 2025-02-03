@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./components/header.css">
+    <link rel="stylesheet" href="./pages/contacto.css">
+    <link rel="stylesheet" href="./components/form.css">
+    <link rel="stylesheet" href="./pages/servicios.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+
+    <script defer src="./pages/index.js"></script>
+    <script defer src="./components/header.js"></script>
+    <script defer src="./components/footer.js"></script>
+    <script defer src="./pages/servicios.js"></script>
+    <script defer src="./pages/contacto.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+
+    <!-- Banner section -->
+    <div class="pb-20">
+        <section class="section pb-0 section__banner">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-7 mb-5 mb-0-desktop">
+                        <h2 class="has-mw-xl is-1 mt-8 mb-8 mb-12-desktop title is-size-2-mobile section__banner-title">
+                            {{titleBanner}}
+                        </h2>
+                    </div>
+                    <div class="is-relative column is-5 is-flex is-justify-content-center">
+                        <img class="is-relative image banner-img" src="./assets/banner.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- About me section -->
+    <div class="section__aboutme is-centered">
+        <section class="section section__about_me">
+            <div class="container section__about_me-content">
+                <div class="columns is-vcentered">
+                    <div class="column is-7 mb-5 mb-0-desktop">
+                        <h2
+                            class=" has-text-left has-mw-xl mt-8 mb-8 mb-12-desktop title is-1 is-size-2-mobile section__about_me-content-title">
+                            {{aboutmeTitle}}
+                        </h2>
+                        <p class="has-mw-lg mb-8 mb-12-desktop section__about_me-content-desc has-text-left ">
+                            {{aboutmeDesc}}
+                        </p>
+                    </div>
+                    <div class="is-relative column is-5">
+                        <img class="is-relative image" src="./assets/hero.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Services section -->
+    <div id="section-servicios"></div>
+
+
+    <!-- Contacto section -->
+    <div id="form-container"></div>
+
+
+
+    <!-- Foooter section -->
+    <div id="contenedor-footer"></div>
+
+
+</body>
+
+</html>

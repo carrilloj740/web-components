@@ -1,0 +1,101 @@
+* {
+    font-family: "Poppins", serif;
+
+}
+
+
+
+.header__img {
+    width: 80px;
+    height: 80px;
+}
+
+.banner-img {
+    width: 65%;
+}
+
+
+
+.section__banner {
+    height: 704px;
+    display: grid;
+    align-items: center;
+    padding: 45px;
+}
+
+.section__banner-title {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.section__aboutme {
+    padding: 71px 45px;
+    background-color: #192130;
+
+}
+
+.section__about_me-content-title {
+    font-size: 42px;
+}
+
+
+.section__about_me-content-desc {
+    font-size: 18px;
+    font-weight: 400px;
+    justify-content: center;
+}
+
+
+.custom-section {
+    max-width: 987px;
+    /* Ancho fijo de 987px */
+    margin: 0 auto;
+    /* Centrar horizontalmente */
+    padding: 3rem 1.5rem;
+    /* Espaciado interno */
+}
+
+/* Estilos para las cards */
+.card {
+    margin-bottom: 1.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+/* Centrar el título */
+.title {
+    text-align: center;
+
+}
+
+.section__services {
+    background: url(../assets/bg.png);
+
+}
+
+.card-element {
+    padding: 35px;
+    width: 360px;
+
+}
+
+.section__services-text {
+    font-size: 14px;
+}
+
+
+.custom-section {
+    max-width: 990px;
+    /* Ancho fijo de 987px */
+    margin: 0 auto;
+    /* Centrar horizontalmente */
+
+}
+
+
+/* navbar */
